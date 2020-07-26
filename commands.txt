@@ -1,0 +1,21 @@
+
+
+#setup working environment
+
+python3.8 -m venv work
+
+source work/bin/activate
+
+pip install --upgrade pip
+
+pip install numpy
+pip install imutils
+pip install opencv-contrib-python
+
+#done setting working environment
+
+
+danielhu@Daniels-MacBook demo-age-detection %  python3.8 detect_age_video.py --face face_detector --age age_detector
+
+(work) danielhu@Daniels-MacBook demo-age-detection % python3.8 detect_age_video.py --face face_detector --age age_detector
+
